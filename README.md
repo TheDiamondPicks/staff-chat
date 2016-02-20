@@ -4,8 +4,8 @@
 <br>This was originally made for my private server but now has been made open source.
 ## Compilation
 I use Maven 3 for compilation so all you need to do after installing maven is to clone this repo and run ```mvn clean install```
-## Downloads
-I use GitHub releases for downloading. So you can just click and it will download.
+## [Downloads](https://github.com/TheDiamondPicks/staff-chat/releases)
+I use GitHub releases for downloading so just click the link abouve and you will be sorted.
 ## Testing
 I use Travis CI for testing (https://travis-ci.org/TheDiamondPicks/staff-chat)
 ## Usage
