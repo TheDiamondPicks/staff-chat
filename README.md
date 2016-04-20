@@ -24,4 +24,4 @@ I use Travis CI for testing (https://travis-ci.org/TheDiamondPicks/staff-chat)
 ```/hdc``` - Head chat (For the head developer, builder, admin etc.) - ```staffchat.heads```
 ![Head Chat](http://i.imgur.com/54BaJuz.png)
 ```/sc``` - All staff chat - ```staffchat.staff```
-![Staff Chat](http://i.imgur.com/dDUbCyT.png)
+![Staff Chat](http://i.imgur.com/54BaJuz.png)

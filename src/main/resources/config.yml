@@ -1,0 +1,13 @@
+# Use the value %PLAYER% to show the sender's name
+# and use the value %MSG% to show the sender's message
+# Colour codes can be found at the following link http://wiki.ess3.net/mc/
+# Please note formatting codes must be placed after colour codes as the colours cancel all formatting out
+formats:
+ helper: "&b<%PLAYER%> %MSG%"
+ moderator: "&d<%PLAYER%> %MSG%"
+ modplus: "&5<%PLAYER%> %MSG%"
+ admin: "&c<%PLAYER%> %MSG%"
+ developer: "&9<%PLAYER%> %MSG%"
+ builder: "&a<%PLAYER%> %MSG%"
+ heads: "&e<%PLAYER%> %MSG%"
+ staff: "&6<%PLAYER%> %MSG%"

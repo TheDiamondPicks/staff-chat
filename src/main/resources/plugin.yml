@@ -43,3 +43,8 @@
       aliases: [sc]
       permission: staffchat.staff
       usage: /staffchat [message] or /sc [message]
+     screload:
+      desciption: Reload the configuration
+      aliases: [scr]
+      permission: staffchat.reload
+      usage: /screload or /scr
