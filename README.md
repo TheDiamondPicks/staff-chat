@@ -1,4 +1,4 @@
-# Ultra Simple Staff Chat [![Build Status](https://travis-ci.org/TheDiamondPicks/staff-chat.svg?branch=master)](https://travis-ci.org/TheDiamondPicks/staff-chat)
+# Ultra Simple Staff Chat
 *A small staff chat plugin with multiple ranks*
 <br>This is a small plugin that allows staff members to communicate directly with certain members.
 <br>This was originally made for my private server but now has been made open source.
