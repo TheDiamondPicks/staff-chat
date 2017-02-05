@@ -1,13 +1,11 @@
-# Ultra Simple Staff Chat [![Build Status](https://travis-ci.org/TheDiamondPicks/staff-chat.svg?branch=master)](https://travis-ci.org/TheDiamondPicks/staff-chat)
+# Ultra Simple Staff Chat
 *A small staff chat plugin with multiple ranks*
 <br>This is a small plugin that allows staff members to communicate directly with certain members.
 <br>This was originally made for my private server but now has been made open source.
 ## Compilation
-I use Maven 3 for compilation so all you need to do after installing maven is to clone this repo and run ```mvn clean install```
+I use Maven 3 for compilation so all you need to do after installing maven is to clone this repo and run ```mvn install```
 ## [Downloads](https://github.com/TheDiamondPicks/staff-chat/releases)
-I use GitHub releases for downloading so just click the link abouve and you will be sorted.
-## Testing
-I use Travis CI for testing (https://travis-ci.org/TheDiamondPicks/staff-chat)
+I use GitHub releases for downloading so just click the link above and you will be sorted.
 ## Usage
 ```/hc``` - Helper chat - ```staffchat.helper```
 <br>![Helper Chat](http://i.imgur.com/UqYVOck.png)
