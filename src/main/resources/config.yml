@@ -2,12 +2,41 @@
 # and use the value %MSG% to show the sender's message
 # Colour codes can be found at the following link http://wiki.ess3.net/mc/
 # Please note formatting codes must be placed after colour codes as the colours cancel all formatting out
-formats:
- helper: "&b<%PLAYER%> %MSG%"
- moderator: "&d<%PLAYER%> %MSG%"
- modplus: "&5<%PLAYER%> %MSG%"
- admin: "&c<%PLAYER%> %MSG%"
- developer: "&9<%PLAYER%> %MSG%"
- builder: "&a<%PLAYER%> %MSG%"
- heads: "&e<%PLAYER%> %MSG%"
- staff: "&6<%PLAYER%> %MSG%"
+options:
+ allow-colour-codes: false
+ console-username: "&4CONSOLE"
+ no-permission-message: "&cYou do not have permission to perform that command."
+ not-console-message: "&cConsole use only!"
+chats:
+ helper:
+  command: "hc"
+  format:  "&b<%PLAYER%&b> %MSG%"
+  permission: "staffchat.helper"
+ moderator:
+  command: "mc"
+  format:  "&d<%PLAYER%&d> %MSG%"
+  permission: "staffchat.mod"
+ modplus:
+  command: "mpc"
+  format:  "&5<%PLAYER%&5> %MSG%"
+  permission: "staffchat.modplus"
+ admin:
+  command: "ac"
+  format:  "&c<%PLAYER%&c> %MSG%"
+  permission: "staffchat.admin"
+ developer:
+  command: "dc"
+  format:  "&9<%PLAYER%&9> %MSG%"
+  permission: "staffchat.dev"
+ builder:
+  command: "bc"
+  format:  "&a<%PLAYER%&a> %MSG%"
+  permission: "staffchat.builder"
+ heads:
+  command: "hdc"
+  format:  "&e<%PLAYER%&e> %MSG%"
+  permission: "staffchat.heads"
+ staff:
+  command: "sc"
+  format:  "&6<%PLAYER%&6> %MSG%"
+  permission: "staffchat.staff"

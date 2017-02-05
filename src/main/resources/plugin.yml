@@ -1,50 +1,13 @@
     name: UAStaffChat
     main: tk.thediamondpicks.sc.Chat
     author: TheDiamondPicks
-    version: 1.0
+    website: http://thediamondpicks.tk
+    version: 2.1
     commands:
-     modchat:
-      description: Chat with other Moderators
-      aliases: [mc]
-      permission: staffchat.mod
-      usage: /modchat [message] or /mc [message]
-     adminchat:
-      description: Chat with other Administrators
-      aliases: [ac]
-      permission: staffchat.admin
-      usage: /adminchat [message] or /ac [message]
-     helperchat:
-      description: Chat with other Helpers
-      aliases: [hc]
-      permission: staffchat.helper
-      usage: /helperchat [message] or /hc [message]
-     modpluschat:
-      description: Chat with other Moderator+'s
-      aliases: [mpc]
-      permission: staffchat.modplus
-      usage: /modpluschat [message] or /mpc [message]
-     devchat:
-      description: Chat with other Developers
-      aliases: [dc]
-      permission: staffchat.dev
-      usage: /developerchat [message] or /dc [message]
-     headchat:
-      description: Chat with other Department Heads
-      aliases: [hdc]
-      permission: staffchat.heads
-      usage: /headchat [message] or /hdc [message]
-     builderchat:
-      description: Chat with other Builders
-      aliases: [bc]
-      permission: staffchat.builder
-      usage: /builderchat [message] or /bc [message]
-     staffchat:
-      description: Chat with other Staff
-      aliases: [sc]
-      permission: staffchat.staff
-      usage: /staffchat [message] or /sc [message]
      screload:
       desciption: Reload the configuration
       aliases: [scr]
-      permission: staffchat.reload
       usage: /screload or /scr
+     csc:
+      desciption: Allows the console to execute chat commands
+      usage: /csc [name of chat] [message]
