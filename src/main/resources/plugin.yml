@@ -3,6 +3,7 @@
     author: TheDiamondPicks
     website: http://thediamondpicks.tk
     version: 2.1
+    softdepend: [PlaceholderAPI]
     commands:
      screload:
       desciption: Reload the configuration

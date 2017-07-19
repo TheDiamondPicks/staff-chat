@@ -38,3 +38,7 @@ Thumbs.db
 
 target/
 .idea/
+.settings/
+.classpath
+.project
+StaffChat.iml

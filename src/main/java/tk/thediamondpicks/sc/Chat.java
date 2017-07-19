@@ -1,5 +1,6 @@
 package tk.thediamondpicks.sc;
 
+import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.plugin.java.*;
 import java.util.*;
@@ -80,7 +81,6 @@ public class Chat extends JavaPlugin implements Listener{
                             format = format.replace("%PLAYER%", ps);
                             format = this.format(format);
                             format = format.replace("%MSG%", msg);
-                            ChatColor.translateAlternateColorCodes('&', format);
                             if (getConfig().getBoolean("options.allow-colour-codes")) {
                                 format = this.format(format);
                             }
@@ -143,11 +143,13 @@ public class Chat extends JavaPlugin implements Listener{
                         }
                         format = format.replace("%PLAYER%", ps);
                         format = this.format(format);
+                        format = PlaceholderAPI.setPlaceholders(m, format);
                         format = format.replace("%MSG%", msg);
-                        ChatColor.translateAlternateColorCodes('&', format);
+
                         if (getConfig().getBoolean("options.allow-colour-codes")) {
                             format = this.format(format);
                         }
+
 
                         for (Player player : this.getServer().getOnlinePlayers()) {
                             if (player.hasPermission(permission)) {
