@@ -143,6 +143,7 @@ public class Chat extends JavaPlugin implements Listener{
                         }
                         format = format.replace("%PLAYER%", ps);
                         format = this.format(format);
+                        if (Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI"))
                         format = PlaceholderAPI.setPlaceholders(m, format);
                         format = format.replace("%MSG%", msg);
 
