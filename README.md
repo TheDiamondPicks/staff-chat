@@ -4,9 +4,10 @@
 <br>This was originally made for my private server but now has been made open source.
 ## Compilation
 I use Maven 3 for compilation so all you need to do after installing maven is to clone this repo and run ```mvn install```
-## [Downloads](https://github.com/TheDiamondPicks/staff-chat/releases)
-I use GitHub releases for downloading so just click the link above and you will be sorted.
+## [Downloads](https://www.spigotmc.org/resources/ultra-simple-staff-chat.22064/)
+I've switched to Spigot for downloads, I will continue to post releases here, but Spigot is recommended.
 ## Usage
+(All of these can be edited)
 ```/hc``` - Helper chat - ```staffchat.helper```
 <br>![Helper Chat](http://i.imgur.com/UqYVOck.png)
 <br>```/mc``` - Moderator chat - ```staffchat.mod```
@@ -23,3 +24,6 @@ I use GitHub releases for downloading so just click the link above and you will 
 <br>![Head Chat](http://i.imgur.com/54BaJuz.png)
 <br>```/sc``` - All staff chat - ```staffchat.staff```
 <br>![Staff Chat](http://i.imgur.com/dDUbCyT.png)
+
+## More information
+More information can be found at the spigot resource page: https://www.spigotmc.org/resources/ultra-simple-staff-chat.22064/
